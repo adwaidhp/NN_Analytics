@@ -21,3 +21,5 @@ Example 2:
  //changing the no of epochs in unit_test.cpp for training the model
 
 
+ There are many header files '.h' files change those for more variation in the model.
+
