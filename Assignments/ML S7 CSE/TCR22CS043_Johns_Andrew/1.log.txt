@@ -1,0 +1,81 @@
+g++ unit_test.cpp -o xnor_train -std=c++17
+./xnor_train
+
+Input: [0.000000 0.000000 0.000000 ]
+label: [1.000000 ]
+Output: [0.000000 ]
+Error: [0.000000 ]
+Epoch: 0 Sample: 0
+Input: [0 0 0]
+label: [1]
+Output: [0]
+Error: [-1]
+Try again
+Input: [0.000000 0.000000 1.000000 ]
+label: [0.000000 ]
+Output: [0.000000 ]
+Error: [0.000000 ]
+Epoch: 0 Sample: 1
+Input: [0 0 1]
+label: [0]
+Output: [-4.22735e-005]
+Error: [-4.22735e-005]
+Training successful
+Input: [0.000000 1.000000 0.000000 ]
+label: [0.000000 ]
+Output: [-0.000042 ]
+Error: [0.000000 ]
+Epoch: 0 Sample: 2
+Input: [0 1 0]
+label: [0]
+Output: [-1.95734e-005]
+Error: [-1.95734e-005]
+Training successful
+Input: [0.000000 1.000000 1.000000 ]
+label: [1.000000 ]
+Output: [0.008012 ]
+Error: [0.000268 ]
+Epoch: 0 Sample: 3
+Input: [0 1 1]
+label: [1]
+Output: [0.00801206]
+Error: [-0.991988]
+Try again
+Input: [1.000000 0.000000 0.000000 ]
+label: [0.000000 ]
+Output: [0.008012 ]
+Error: [0.000268 ]
+Epoch: 0 Sample: 4
+Input: [1 0 0]
+label: [0]
+Output: [0.00808012]
+Error: [0.00808012]
+Training successful
+Input: [1.000000 0.000000 1.000000 ]
+label: [1.000000 ]
+Output: [0.735479 ]
+Error: [0.006556 ]
+Epoch: 0 Sample: 5
+Input: [1 0 1]
+label: [1]
+Output: [0.735479]
+Error: [-0.264521]
+Try again
+Input: [1.000000 1.000000 0.000000 ]
+label: [1.000000 ]
+Output: [0.900000 ]
+Error: [0.003033 ]
+Epoch: 0 Sample: 6
+Input: [1 1 0]
+label: [1]
+Output: [0.9]
+Error: [-0.0999999]
+Training successful
+Input: [1.000000 1.000000 1.000000 ]
+label: [0.000000 ]
+Output: [nan ]
+Error: [nan ]
+Epoch: 0 Sample: 7
+Input: [1 1 1]
+label: [0]
+NaN detected in output at epoch 0, sample 7
