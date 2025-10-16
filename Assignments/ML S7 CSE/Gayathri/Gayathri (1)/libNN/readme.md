@@ -37,15 +37,7 @@ node_list = {
 
 
 
-3.Input Weights:
-  ip_to_nn i1 = {0, 0, 0, 1.0, false};
-  ip_to_nn i2 = {0, 1, 0, -1.0, false};
-  ip_to_nn i3 = {0, 2, 0, -1.0, false};
-  
-                                TO
-  ip_to_nn i1 = {0, 0, 0, 0.5, false};   // Changed from 1.0
-  ip_to_nn i2 = {0, 1, 0, -0.3, false};  // Changed from -1.0  
-  ip_to_nn i3 = {0, 2, 0, 0.7, false};   // Changed from -1.0
+3.Changed the weights
   
 4.Learning Rate:
 _nn.set_learning_rate(0.000001);
@@ -53,24 +45,7 @@ _nn.set_learning_rate(0.000001);
 _nn.set_learning_rate(0.0001);  
 
 
-5.// ALL WEIGHTS: 1.0 only
-nn_to_nn n0n10 = {0, 0, 0, 1, 0, 0, 1.0, true};
-nn_to_nn n0n11 = {0, 0, 0, 1, 1, 0, 1.0, true};
-// ... all 9 connections = 1.0
-
-                        TO
-// VARIED WEIGHTS: -0.4 to 0.5
-nn_to_nn n0n10 = {0, 0, 0, 1, 0, 0, 0.2, true};   // Was 1.0
-nn_to_nn n0n11 = {0, 0, 0, 1, 1, 0, -0.4, true};  // Was 1.0
-nn_to_nn n0n12 = {0, 0, 0, 1, 2, 0, 0.3, true};   // Was 1.0
-
-nn_to_nn n0n20 = {0, 1, 0, 1, 0, 0, -0.1, true};  // Was 1.0
-nn_to_nn n0n21 = {0, 1, 0, 1, 1, 0, 0.5, true};   // Was 1.0
-nn_to_nn n0n22 = {0, 1, 0, 1, 2, 0, -0.2, true};  // Was 1.0
-
-nn_to_nn n0n30 = {0, 2, 0, 1, 0, 0, 0.4, true};   // Was 1.0
-nn_to_nn n0n31 = {0, 2, 0, 1, 1, 0, -0.3, true};  // Was 1.0  
-nn_to_nn n0n32 = {0, 2, 0, 1, 2, 0, 0.1, true};   // Was 1.0
+5.All weights and output weights were changed
 
 
 
