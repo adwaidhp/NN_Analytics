@@ -1,5 +1,5 @@
-#ifndef __STRUCTURES_H__
-#define __STRUCTURES_H__
+#ifndef _STRUCTURES_H_
+#define _STRUCTURES_H_
 
 #include "global_enum.h"
 

@@ -1,18 +1,18 @@
-#ifndef __ACTIVATION_H__
-#define __ACTIVATION_H__
+#ifndef _DERIVATIVE_H_
+#define _DERIVATIVE_H_
 
 #include "global_enum.h"
 
-class activation 
+class derivative 
 {
 	public:
 	
-		activation ()
+		derivative ()
 		{
 		
 		}
 	
-		double function (ACT_FUN id, double x) 
+		double loss (ACT_FUN id, double x) 
 		{
 			switch (id)
 			{
@@ -40,14 +40,14 @@ class activation
 	
 		double sigmoid (double x)
 		{
-			return x;
+			return (x * (1-x));
 		}
 
 		double relu (double x)
 		{
 			if (x > 0.0) 
 			{
-				return x;
+				return 1.0;
 			}
 		
 			return 0;
@@ -55,7 +55,12 @@ class activation
 
 		double leaky_relu (double x)
 		{
-			return x;
+			if (x > 0.0) 
+			{
+				return 1.0;
+			}
+		
+			return (0.01 * x);
 		}
 		
 		double tanh (double x)
@@ -65,4 +70,3 @@ class activation
 };
 
 #endif
-

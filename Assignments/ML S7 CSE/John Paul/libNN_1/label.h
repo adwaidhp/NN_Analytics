@@ -1,5 +1,5 @@
-#ifndef __label_H__
-#define __label_H__
+#ifndef _label_H_
+#define _label_H_
 
 
 #include <list> 

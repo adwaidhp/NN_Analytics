@@ -1,5 +1,5 @@
-#ifndef __OUTPUT_H__
-#define __OUTPUT_H__
+#ifndef _OUTPUT_H_
+#define _OUTPUT_H_
 
 #include <iostream>
 #include <list> 

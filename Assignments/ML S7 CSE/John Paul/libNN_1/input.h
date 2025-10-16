@@ -1,5 +1,5 @@
-#ifndef __INPUT_H__
-#define __INPUT_H__
+#ifndef _INPUT_H_
+#define _INPUT_H_
 
 
 #include <list> 

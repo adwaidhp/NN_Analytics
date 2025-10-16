@@ -1,5 +1,5 @@
-#ifndef __ERROR_H__
-#define __ERROR_H__
+#ifndef _ERROR_H_
+#define _ERROR_H_
 
 
 #include <list> 
