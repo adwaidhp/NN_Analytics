@@ -1,0 +1,2465 @@
+
+//std::list<Dataset> datasets = {
+        
+            {{-1.0472, -0.7854, -0.5236}, 
+                
+            {2.0000, 1.4142, 1.1547}},
+            {{0.0, 0.5236, 0.7854},
+            {1.0000, 1.1547, 1.4142}},
+            {
+                {-1.3090, -1.0472, -0.7854},       // x values
+                {3.0000, 2.0000, 1.4142}           // sec(x)
+            }
+        
+    };
+
+epoch = 60
+learning rate = 0.000001
+
+oot@LAPTOP-T549BUP5:/mnt/d/NN_Analytics/libNN_1# ./main
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.100000 1.403138 1.149524 ]
+Error: [-0.105000 0.010976 0.005153 ]
+Training successful
+main: input.h:38: void input::set_input(std::__cxx11::list<double>&): Assertion `in.size () == input.size ()' failed.
+Aborted
+root@LAPTOP-T549BUP5:/mnt/d/NN_Analytics/libNN_1# g++ unit_test.cpp -o main
+root@LAPTOP-T549BUP5:/mnt/d/NN_Analytics/libNN_1# ./main
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.100000 1.403138 1.149524 ]
+Error: [-0.105000 0.010976 0.005153 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.069297 1.137459 1.314203 ]
+Error: [-0.074099 0.016984 0.092926 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.991582 2.099998 1.405046 ]
+Error: [0.008394 -0.104998 0.009094 ]
+Training successful
+in iteration: 0
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099998 1.405766 1.148258 ]
+Error: [-0.104998 0.008384 0.006406 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.068865 1.133474 1.314202 ]
+Error: [-0.073607 0.020836 0.092927 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.995680 2.099998 1.405916 ]
+Error: [0.004314 -0.104998 0.008236 ]
+Training successful
+in iteration: 1
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099998 1.405593 1.147851 ]
+Error: [-0.104998 0.008554 0.006808 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.975954 1.112158 1.514195 ]
+Error: [0.023468 0.040974 -0.107065 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.010511 2.100000 1.407876 ]
+Error: [-0.010547 -0.105000 0.006296 ]
+Training successful
+in iteration: 2
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.100000 1.404430 1.152467 ]
+Error: [-0.105000 0.009703 0.002229 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099996 1.118120 1.380261 ]
+Error: [-0.109996 0.035421 0.033124 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.075993 2.100000 1.407395 ]
+Error: [-0.077918 -0.105000 0.006772 ]
+Training successful
+in iteration: 3
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099999 1.404626 1.152785 ]
+Error: [-0.104999 0.009509 0.001912 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099996 1.219291 1.352560 ]
+Error: [-0.109995 -0.068204 0.058954 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.078278 2.099999 1.407794 ]
+Error: [-0.080321 -0.104999 0.006377 ]
+Training successful
+in iteration: 4
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099999 1.405110 1.152943 ]
+Error: [-0.104999 0.009031 0.001754 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.960583 1.087870 1.514195 ]
+Error: [0.037863 0.062962 -0.107065 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.034730 2.100000 1.408582 ]
+Error: [-0.035132 -0.105000 0.005595 ]
+Training successful
+in iteration: 5
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099999 1.398166 1.153592 ]
+Error: [-0.104999 0.015853 0.001107 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099998 1.128520 1.412282 ]
+Error: [-0.109997 0.025587 0.001916 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.900000 2.011297 1.414340 ]
+Error: [0.096667 -0.011361 -0.000140 ]
+Training successful
+in iteration: 6
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099999 1.405210 1.154512 ]
+Error: [-0.104999 0.008933 0.000188 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099988 1.129475 1.412273 ]
+Error: [-0.109986 0.024674 0.001924 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.900001 2.009566 1.414397 ]
+Error: [0.096666 -0.009612 -0.000197 ]
+Training successful
+in iteration: 7
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099998 1.407072 1.154456 ]
+Error: [-0.104998 0.007092 0.000244 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099989 1.175799 1.410824 ]
+Error: [-0.109986 -0.021485 0.003368 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.900001 2.012951 1.414393 ]
+Error: [0.096666 -0.013034 -0.000193 ]
+Training successful
+in iteration: 8
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.061626 1.314216 1.157176 ]
+Error: [-0.063525 0.092915 -0.002482 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099992 1.147821 1.408840 ]
+Error: [-0.109990 0.006838 0.005340 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.966568 2.099994 1.411771 ]
+Error: [0.033060 -0.104994 0.002425 ]
+Training successful
+in iteration: 9
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099994 1.409793 1.154046 ]
+Error: [-0.104993 0.004393 0.000654 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.922590 1.067466 1.317201 ]
+Error: [0.071418 0.080644 0.090346 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.032573 2.099998 1.350736 ]
+Error: [-0.032927 -0.104998 0.060616 ]
+Training successful
+in iteration: 10
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099998 1.404461 1.107646 ]
+Error: [-0.104998 0.009672 0.045137 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.092372 1.142700 1.475679 ]
+Error: [-0.100904 0.011875 -0.064152 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.028508 2.001127 1.512294 ]
+Error: [-0.028779 -0.001128 -0.104898 ]
+Training successful
+in iteration: 11
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.021575 1.416325 1.252871 ]
+Error: [-0.021807 -0.002129 -0.106517 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.000129 1.154758 1.513131 ]
+Error: [-0.000129 -0.000058 -0.105852 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.998572 1.999920 1.314215 ]
+Error: [0.001428 0.000080 0.092916 ]
+Training successful
+in iteration: 12
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.001115 1.414321 1.254154 ]
+Error: [-0.001116 -0.000121 -0.108019 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.000706 1.155003 1.507963 ]
+Error: [-0.000707 -0.000303 -0.099979 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.002531 2.000162 1.513879 ]
+Error: [-0.002533 -0.000162 -0.106705 ]
+Training successful
+in iteration: 13
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.905851 1.395032 1.062751 ]
+Error: [0.089717 0.018908 0.084627 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.000301 1.152075 1.339051 ]
+Error: [-0.000301 0.002619 0.071155 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.002007 2.000137 1.514001 ]
+Error: [-0.002008 -0.000137 -0.106845 ]
+Training successful
+in iteration: 14
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.002436 1.414449 1.253149 ]
+Error: [-0.002439 -0.000249 -0.106843 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.000863 1.155319 1.511833 ]
+Error: [-0.000864 -0.000619 -0.104373 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.900406 2.008161 1.400731 ]
+Error: [0.096288 -0.008194 0.013341 ]
+Training successful
+in iteration: 15
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.004724 1.415525 1.248130 ]
+Error: [-0.004735 -0.001326 -0.100990 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.001532 1.156625 1.478912 ]
+Error: [-0.001535 -0.001928 -0.067673 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.001569 2.000143 1.513997 ]
+Error: [-0.001570 -0.000143 -0.106840 ]
+Training successful
+in iteration: 16
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.001918 1.414587 1.254063 ]
+Error: [-0.001920 -0.000387 -0.107914 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.001099 1.155661 1.501572 ]
+Error: [-0.001100 -0.000962 -0.092770 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.000160 1.999991 1.514189 ]
+Error: [-0.000160 0.000009 -0.107058 ]
+Training successful
+in iteration: 17
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.999299 1.414088 1.054840 ]
+Error: [0.000700 0.000112 0.091224 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.000574 1.155090 1.511472 ]
+Error: [-0.000574 -0.000390 -0.103962 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.000376 2.000016 1.514198 ]
+Error: [-0.000376 -0.000016 -0.107069 ]
+Training successful
+in iteration: 18
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.999794 1.414173 1.054732 ]
+Error: [0.000206 0.000027 0.091313 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.000355 1.154967 1.513699 ]
+Error: [-0.000355 -0.000267 -0.106500 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.000593 2.000046 1.514195 ]
+Error: [-0.000593 -0.000046 -0.107065 ]
+Training successful
+in iteration: 19
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.999830 1.414189 1.054707 ]
+Error: [0.000170 0.000011 0.091334 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.000322 1.154967 1.513175 ]
+Error: [-0.000322 -0.000267 -0.105902 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.999442 1.999839 1.314212 ]
+Error: [0.000558 0.000161 0.092919 ]
+Training successful
+in iteration: 20
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.998149 1.413587 1.054758 ]
+Error: [0.001849 0.000613 0.091292 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.001993 1.158166 1.512179 ]
+Error: [-0.001997 -0.003476 -0.104767 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.000559 2.000158 1.514196 ]
+Error: [-0.000559 -0.000158 -0.107067 ]
+Training successful
+in iteration: 21
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.999350 1.413954 1.054714 ]
+Error: [0.000650 0.000246 0.091328 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.998541 1.149986 1.315914 ]
+Error: [0.001457 0.004695 0.091455 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.001012 2.000285 1.514200 ]
+Error: [-0.001013 -0.000285 -0.107071 ]
+Training successful
+in iteration: 22
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.000355 1.414326 1.254679 ]
+Error: [-0.000355 -0.000126 -0.108635 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.005280 1.161558 1.509666 ]
+Error: [-0.005308 -0.006899 -0.101910 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.001105 2.000363 1.514198 ]
+Error: [-0.001105 -0.000363 -0.107069 ]
+Training successful
+in iteration: 23
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.001143 1.414671 1.254676 ]
+Error: [-0.001143 -0.000471 -0.108632 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.069046 1.076471 1.315761 ]
+Error: [-0.073814 0.072929 0.091587 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.001776 2.000522 1.514197 ]
+Error: [-0.001777 -0.000522 -0.107067 ]
+Training successful
+in iteration: 24
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.997799 1.413386 1.054725 ]
+Error: [0.002198 0.000813 0.091319 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.095188 1.111286 1.415424 ]
+Error: [-0.104248 0.041782 -0.001225 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.003083 2.000738 1.514197 ]
+Error: [-0.003087 -0.000738 -0.107068 ]
+Training successful
+in iteration: 25
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.995492 1.412840 1.054722 ]
+Error: [0.004498 0.001358 0.091321 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.984190 1.112465 1.315539 ]
+Error: [0.015560 0.040690 0.091778 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.006036 2.001101 1.514199 ]
+Error: [-0.006049 -0.001102 -0.107070 ]
+Training successful
+in iteration: 26
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.900053 1.414295 1.108064 ]
+Error: [0.094953 -0.000095 0.044752 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099396 1.102219 1.407197 ]
+Error: [-0.109275 0.050096 0.006968 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.099935 1.991068 1.416034 ]
+Error: [-0.103264 0.008892 -0.001837 ]
+Training successful
+in iteration: 27
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099710 1.362448 1.126902 ]
+Error: [-0.104681 0.049858 0.027129 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099295 1.082242 1.407901 ]
+Error: [-0.109155 0.067911 0.006271 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]   ///////////////NAN STARTS FROM HERE
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 28
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 29
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 30
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 31
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 32
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 33
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 34
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 35
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 36
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 37
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 38
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 39
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 40
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 41
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 42
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 43
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 44
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 45
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 46
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 47
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 48
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 49
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 50
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 51
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 52
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 53
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 54
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 55
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 56
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 57
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 58
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 59
+
+
+
+
+///////// TRYING TO INCREASE THE LEARNING rate 
+
+LEARNING RATE =0.001
+
+root@LAPTOP-T549BUP5:/mnt/d/NN_Analytics/libNN_1# ./main
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.098495 1.403343 1.149645 ]
+Error: [-0.103345 0.010774 0.005033 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.986105 1.253047 1.364838 ]
+Error: [0.013702 -0.106723 0.047639 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.962143 2.098627 1.405174 ]
+Error: [0.037379 -0.103491 0.008969 ]
+Training successful
+in iteration: 0
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.098559 1.406073 1.148064 ]
+Error: [-0.103416 0.008081 0.006597 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.988431 1.254543 1.373303 ]
+Error: [0.011435 -0.108477 0.039714 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.965249 2.099843 1.407575 ]
+Error: [0.034348 -0.104828 0.006594 ]
+Training successful
+in iteration: 1
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099296 1.409560 1.147360 ]
+Error: [-0.104226 0.004625 0.007293 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.969642 1.055491 1.470631 ]
+Error: [0.029436 0.090686 -0.058683 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.011872 2.099740 1.411414 ]
+Error: [-0.011919 -0.104714 0.002781 ]
+Training successful
+in iteration: 2
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099260 1.453269 1.152314 ]
+Error: [-0.104186 -0.040148 0.002381 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.029244 1.055599 1.416813 ]
+Error: [-0.030099 0.090596 -0.002618 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.989589 2.099657 1.412274 ]
+Error: [0.010374 -0.104623 0.001924 ]
+Training successful
+in iteration: 3
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.969277 1.314583 1.160440 ]
+Error: [0.030251 0.092600 -0.005769 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 4
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 5
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 6
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 7
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 8
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 9
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 10
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 11
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 12
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 13
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 14
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 15
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 16
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 17
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 18
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 19
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 20
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 21
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 22
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 23
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 24
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 25
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 26
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 27
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 28
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 29
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 30
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 31
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 32
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 33
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 34
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 35
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 36
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 37
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 38
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 39
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 40
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 41
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 42
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 43
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 44
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 45
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 46
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 47
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 48
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 49
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 50
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 51
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 52
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 53
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 54
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 55
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 56
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 57
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 58
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 59
+
+
+\\\\\\\THE NAN VALUES STARTED APPEARING EARLY
+
+in iteration: 31
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.994266 1.514200 1.154705 ]
+Error: [0.005718 -0.107071 -0.000005 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.001704 1.054700 1.414174 ]
+Error: [-0.001707 0.091339 0.000026 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.979811 2.298959 1.414207 ]
+Error: [0.020053 -0.343648 -0.000007 ]
+Try again
+in iteration: 32
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.994008 1.514200 1.154706 ]
+Error: [0.005974 -0.107071 -0.000006 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.001736 1.054700 1.414172 ]
+Error: [-0.001739 0.091340 0.000028 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [3.735896 -0.908874 1.414105 ]
+Error: [-0.916410 1.321900 0.000095 ]
+Try again
+in iteration: 33
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.008054 1.314200 1.154699 ]
+Error: [-0.008087 0.092929 0.000001 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 34
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 35
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 36
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 37
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 38
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 39
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 40
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 41
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 42
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 43
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 44
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 45
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 46
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 47
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 48
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 49
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 50
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 51
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 52
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 53
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 54
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 55
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 56
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 57
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 58
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 59
+root@LAPTOP-T549BUP5:/mnt/d/NN_Analytics/libNN_1#
+
+
+
+
+
+
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 59
+root@LAPTOP-T549BUP5:/mnt/d/NN_Analytics/libNN_1#
+
+
+
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 59
+
+
+
+
+TRYING TO DECREASE THE LEARNING RATE
+
+
+NAN Starts from 34 th Iteration which means increased lernging rate helpps in avoiding NAN upto certain iteration
+

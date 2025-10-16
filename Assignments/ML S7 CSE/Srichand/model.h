@@ -2,98 +2,76 @@
 #define _MODEL_H_
 
 #include "network.h"
+#include <cstdlib> // for rand()
+#include <ctime>   // for time()
+#include <list>
+#include <utility>
 
-                                              class model
-{
+class model {
 public:
     network _nn = network();
 
-    model()
-    {
+    model() {
+        srand(static_cast<unsigned>(time(0))); // seed for randomized weights
     }
 
-    void set()
-    {
+    void set() {
         std::list<std::list<std::pair<ACT_FUN, double>>> node_list;
 
-        // This defines a 3-layer network:
-        // Layer 0: 3 neurons (Input Layer)
-        // Layer 1: 3 neurons (Hidden Layer)
-        // Layer 2: 3 neurons (Output Layer)
+        // Architecture: Input Layer: 3, Hidden Layer: 3, Output Layer: 3
         node_list = {
             {{ACT_FUN::leaky_relu, 1.0}, {ACT_FUN::leaky_relu, 1.0}, {ACT_FUN::leaky_relu, 1.0}},
             {{ACT_FUN::leaky_relu, 1.0}, {ACT_FUN::leaky_relu, 1.0}, {ACT_FUN::leaky_relu, 1.0}},
             {{ACT_FUN::leaky_relu, 1.0}, {ACT_FUN::leaky_relu, 1.0}, {ACT_FUN::leaky_relu, 1.0}}
-        };        
+        };
 
         _nn.initialize(node_list);
+        _nn.set_learning_rate(0.01);
 
-        // A higher learning rate for a linear problem
-        _nn.set_learning_rate(0.01);  // previously 0.000001
+        // Small random weight generator [-0.1, 0.1]
+        auto w = []() { return ((double)rand() / RAND_MAX) * 0.2 - 0.1; };
 
-        // Connects 3 inputs to the 3 neurons of the first layer (Layer 0)
-        ip_to_nn i1 = {0, 0, 0, 1.0, false};
-        ip_to_nn i2 = {0, 1, 0, -1.0, false};
-        ip_to_nn i3 = {0, 2, 0, -1.0, false};
+        // -----------------------
+        // Input → Layer 0
+        // -----------------------
+        ip_to_nn ip1{0, 0, 0, w(), false};
+        ip_to_nn ip2{1, 0, 1, w(), false};
+        ip_to_nn ip3{2, 0, 2, w(), false};
 
-        _nn.add(i1);
-        _nn.add(i2);
-        _nn.add(i3);
+        _nn.add(ip1);
+        _nn.add(ip2);
+        _nn.add(ip3);
 
-        // Connects all neurons in Layer 0 to all neurons in Layer 1 (Fully Connected)
-        nn_to_nn n0n10 = {0, 0, 0, 1, 0, 0, 1.0, true};
-        nn_to_nn n0n11 = {0, 0, 0, 1, 1, 0, 1.0, true};
-        nn_to_nn n0n12 = {0, 0, 0, 1, 2, 0, 1.0, true};
+        // -----------------------
+        // Layer 0 → Layer 1
+        // -----------------------
+        for (int i = 0; i < 3; ++i) {
+            for (int j = 0; j < 3; ++j) {
+                nn_to_nn conn{0, (unsigned)i, 0, 1, (unsigned)j, 0, w(), true};
+                _nn.add(conn);
+            }
+        }
 
-        nn_to_nn n0n20 = {0, 1, 0, 1, 0, 0, 1.0, true};
-        nn_to_nn n0n21 = {0, 1, 0, 1, 1, 0, 1.0, true};
-        nn_to_nn n0n22 = {0, 1, 0, 1, 2, 0, 1.0, true};
+        // -----------------------
+        // Layer 1 → Layer 2
+        // -----------------------
+        for (int i = 0; i < 3; ++i) {
+            for (int j = 0; j < 3; ++j) {
+                nn_to_nn conn{1, (unsigned)i, 0, 2, (unsigned)j, 0, w(), true};
+                _nn.add(conn);
+            }
+        }
 
-        nn_to_nn n0n30 = {0, 2, 0, 1, 0, 0, 1.0, true};
-        nn_to_nn n0n31 = {0, 2, 0, 1, 1, 0, 1.0, true};
-        nn_to_nn n0n32 = {0, 2, 0, 1, 2, 0, 1.0, true};
+        // -----------------------
+        // Layer 2 → Output
+        // -----------------------
+        nn_to_op op1{2, 0, 0, w(), false};
+        nn_to_op op2{2, 1, 1, w(), false};
+        nn_to_op op3{2, 2, 2, w(), false};
 
-        _nn.add(n0n10);
-        _nn.add(n0n11);
-        _nn.add(n0n12);
-        _nn.add(n0n20);
-        _nn.add(n0n21);
-        _nn.add(n0n22);
-        _nn.add(n0n30);
-        _nn.add(n0n31);
-        _nn.add(n0n32);
-
-        // Connects all neurons in Layer 1 to all neurons in Layer 2 (Fully Connected)
-        nn_to_nn n1n20 = {1, 0, 0, 2, 0, 0, 1.0, true};
-        nn_to_nn n1n21 = {1, 0, 0, 2, 1, 0, 1.0, true};
-        nn_to_nn n1n22 = {1, 0, 0, 2, 2, 0, 1.0, true};
-
-        nn_to_nn n1n23 = {1, 1, 0, 2, 0, 0, 1.0, true};
-        nn_to_nn n1n24 = {1, 1, 0, 2, 1, 0, 1.0, true};
-        nn_to_nn n1n25 = {1, 1, 0, 2, 2, 0, 1.0, true};
-
-        nn_to_nn n1n26 = {1, 2, 0, 2, 0, 0, 1.0, true};
-        nn_to_nn n1n27 = {1, 2, 0, 2, 1, 0, 1.0, true};
-        nn_to_nn n1n28 = {1, 2, 0, 2, 2, 0, 1.0, true};
-
-        _nn.add(n1n20);
-        _nn.add(n1n21);
-        _nn.add(n1n22);
-        _nn.add(n1n23);
-        _nn.add(n1n24);
-        _nn.add(n1n25);
-        _nn.add(n1n26);
-        _nn.add(n1n27);
-        _nn.add(n1n28);
-
-        // Connects the 3 neurons of the output layer (Layer 2) to the overall output
-        nn_to_op o1 = {2, 0, 0, 1.0, false};
-        nn_to_op o2 = {2, 1, 0, 1.0, false};
-        nn_to_op o3 = {2, 2, 0, 1.0, false};
-
-        _nn.add(o1);
-        _nn.add(o2);
-        _nn.add(o3);
+        _nn.add(op1);
+        _nn.add(op2);
+        _nn.add(op3);
     }
 };
 
