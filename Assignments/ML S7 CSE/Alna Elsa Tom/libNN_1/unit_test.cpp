@@ -29,10 +29,8 @@ int main()
         double x2 = i + 1;
         double x3 = i + 2;
 
-        // normalize the sum
-        double s = (x1 + x2 + x3) / 100.0;
-        ds.input = {x1 / 10.0, x2 / 10.0, x3 / 10.0};
-        ds.label = {s, s * s, s * s * s};
+        ds.input = {x1, x2, x3};
+        ds.label = {x1 * x2 * x3, 2*(x1 + x2 + x3), 3*(x1 + x2 + x3)};
 
         datasets.push_back(ds);
     }
@@ -52,5 +50,5 @@ int main()
         std::cout << "Epoch " << epoch << " completed\n";
     }
 
-    return 0;
+return 0;
 }
