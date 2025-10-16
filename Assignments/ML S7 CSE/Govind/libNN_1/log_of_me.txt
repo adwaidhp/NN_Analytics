@@ -2463,3 +2463,340 @@ TRYING TO DECREASE THE LEARNING RATE
 
 NAN Starts from 34 th Iteration which means increased lernging rate helpps in avoiding NAN upto certain iteration
 
+
+# NN_Analytics
+
+The Equation I am choosing for the experiment is y = tanx
+
+Which even though is non linear still is periodic and simple equation.
+
+
+Primary Dataset Used:
+
+Primary Dataset can't have x = +-1.47 (pi/2) as then it converges to infinity
+datasets = {
+        
+            {{-1.0472, -0.7854, -0.5236}, 
+                
+            {2.0000, 1.4142, 1.1547}},
+            {
+                {0.0, 0.5236, 0.7854},
+                {1.0000, 1.1547, 1.4142}
+            },
+            {
+                {-1.3090, -1.0472, -0.7854},      
+                {3.0000, 2.0000, 1.4142}          
+            }
+};
+
+
+First tried to run 
+
+    Encountered Nan values 
+
+        in iteration: 27
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.099710 1.362448 1.126902 ]
+Error: [-0.104681 0.049858 0.027129 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [1.099295 1.082242 1.407901 ]
+Error: [-0.109155 0.067911 0.006271 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]   ///////////////NAN STARTS FROM HERE
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 28
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 29
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 30
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 31
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 32
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+
+Nan Encountered on 27
+
+
+Then tried to increase learning rate:
+
+LEARNING RATE =0.001
+
+Training successful
+in iteration: 3
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [1.969277 1.314583 1.160440 ]
+Error: [0.030251 0.092600 -0.005769 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 4
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+
+
+THe Nan starts appearing early 
+
+
+
+
+
+Decreased Learning Rate
+
+LEARNING RATE = 0.0000001
+
+in iteration: 33
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.008054 1.314200 1.154699 ]
+Error: [-0.008087 0.092929 0.000001 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 34
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+
+
+cONCLUSION DECREASED learning rate helped to Avoid Nan
+
+But i wasn,t able to decrease furthure cause computation time was exponential
+
+
+Changed Activation function and weight:
+
+node_list = {
+             {{ACT_FUN::tanh, 0.5}, {ACT_FUN::tanh, 0.5}, {ACT_FUN::tanh, 0.5}},
+ {{ACT_FUN::tanh, 0.5}, {ACT_FUN::tanh, 0.5}, {ACT_FUN::tanh, 0.5}},
+ {{ACT_FUN::tanh, 0.5}, {ACT_FUN::tanh, 0.5}, {ACT_FUN::tanh, 0.5}}
+};
+
+Tried using tanh and lower weights hoping convergence would be reason behind Nan 
+
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 1
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 2
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 3
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 4
+
+That didnt helped cause Nan started coming from the first few iterations itself.
+
+
+Changed Weight still using ReLu
+
+node_list = {
+            {{ACT_FUN::leaky_relu, 0.1}, {ACT_FUN::leaky_relu, 0.1}, {ACT_FUN::leaky_relu, 0.1}},
+
+            {{ACT_FUN::leaky_relu, 0.1}, {ACT_FUN::leaky_relu, 0.1}, {ACT_FUN::leaky_relu, 0.1}},
+
+            {{ACT_FUN::leaky_relu, 0.1}, {ACT_FUN::leaky_relu, 0.1}, {ACT_FUN::leaky_relu, 0.1}}
+
+        };
+
+        Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.100000 1.402940 1.146697 ]
+Error: [-0.105000 0.011170 0.007947 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.978966 1.178682 1.514200 ]
+Error: [0.020592 -0.024480 -0.107071 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.900000 2.012274 1.419544 ]
+Error: [0.096666 -0.012349 -0.005364 ]
+Training successful
+in iteration: 57
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.100000 1.402945 1.146714 ]
+Error: [-0.105000 0.011165 0.007931 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.978082 1.178970 1.514200 ]
+Error: [0.021438 -0.024780 -0.107071 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.900000 2.012264 1.419533 ]
+Error: [0.096667 -0.012340 -0.005354 ]
+Training successful
+in iteration: 58
+Input: [-1.047200 -0.785400 -0.523600 ]
+label: [2.000000 1.414200 1.154700 ]
+Output: [2.100000 1.402951 1.146725 ]
+Error: [-0.105000 0.011160 0.007920 ]
+Training successful
+Input: [0.000000 0.523600 0.785400 ]
+label: [1.000000 1.154700 1.414200 ]
+Output: [0.977191 1.179286 1.514199 ]
+Error: [0.022289 -0.025109 -0.107070 ]
+Training successful
+Input: [-1.309000 -1.047200 -0.785400 ]
+label: [3.000000 2.000000 1.414200 ]
+Output: [2.900000 2.012256 1.419526 ]
+Error: [0.096667 -0.012331 -0.005346 ]
+Training successful
+in iteration: 59
+
+was successfully able to complete the iteration
+
+
+
+
+

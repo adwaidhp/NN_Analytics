@@ -116,9 +116,121 @@ Training successful (before divergence)
 
 ---
 
+
+
 ## 🧭 Future Improvements
 
-- Use **ReLU + Linear** activation combination.  
+- Use **ReLU # 🧠 Neural Network Function Approximation — y = tan(x)
+
+## 📘 Objective
+
+Train a feedforward neural network to approximate:
+
+
+
+\[
+y = \tan(x)
+\]
+
+
+
+This series of experiments explores training stability across different activation functions and learning rates, with a focus on preventing NaN divergence.
+
+---
+
+## ⚙️ Experimental Setup
+
+| Parameter         | Value                          |
+|------------------|---------------------------------|
+| Model Type       | Feedforward Neural Network      |
+| Input Dimension  | 3                               |
+| Output Dimension | 3                               |
+| Hidden Layers    | 3 layers (3 nodes each)         |
+| Activation       | Sigmoid, Tanh, Leaky ReLU       |
+| Learning Rate    | 0.01 → 0.0000001                |
+| Loss Function    | Mean Squared Error (MSE)        |
+| Optimizer        | Gradient Descent                |
+
+---
+
+## 🧪 Experiments
+
+### Experiment 1 — Sigmoid Activation (LR = 0.01)
+
+- NaN appeared at iteration 27.
+- Initial errors were small and consistent.
+- Likely caused by exploding gradients or sigmoid saturation.
+
+### Experiment 2 — Increased Learning Rate (LR = 0.001)
+
+- NaNs appeared earlier (iteration 3–4).
+- Higher step size worsened instability.
+
+### Experiment 3 — Decreased Learning Rate (LR = 0.0000001)
+
+- Training remained stable up to iteration 33.
+- NaNs appeared later, confirming gradient explosion.
+- Slower convergence.
+
+### Experiment 4 — Tanh Activation
+
+- NaNs appeared immediately.
+- Lower weights didn’t help.
+- Indicates instability from derivative overflow or weight scaling.
+
+### Experiment 5 — Leaky ReLU Activation
+
+- Training fully stabilized.
+- No NaNs after 50+ iterations.
+- Smooth convergence and accurate outputs.
+
+---
+
+## 📊 Summary Table
+
+| Experiment | Activation   | Learning Rate | NaN Iteration | Stability   | Observation                        |
+|-----------|--------------|---------------|---------------|-------------|------------------------------------|
+| 1         | Sigmoid      | 0.01          | 27            | ⚠️ Semi-Stable | Gradients exploded mid-training    |
+| 2         | Sigmoid      | 0.001         | 3             | ❌ Unstable   | Diverged faster                    |
+| 3         | Sigmoid      | 0.0000001     | 33            | ⚠️ Semi-Stable | Stable but very slow               |
+| 4         | Tanh         | 0.5 weight    | 1             | ❌ Unstable   | Immediate NaN                      |
+| 5         | Leaky ReLU   | 0.1 weight    | —             | ✅ Stable     | Fully stable and accurate          |
+
+---
+
+## ⚠️ NaN Analysis
+
+**Root Causes:**
+- Exploding gradients from steep tan(x) slope near ±π/3.
+- Saturated activations (sigmoid, tanh).
+- Unbounded weights with high learning rates.
+
+**Fixes That Worked:**
+- Reduced learning rate.
+- Switched to Leaky ReLU.
+- Initialized weights to small values (0.1–0.5).
+
+---
+
+## 🚀 Conclusion
+
+The network successfully learned to approximate:
+
+
+
+\[
+y = \tan(x)
+\]
+
+
+
+once Leaky ReLU and smaller weights were used. NaN instability was primarily linked to learning rate and activation choice. Stable training was achieved by:
+
+- Using ReLU-based activations.
+- Decreasing learning rate.
+- Avoiding saturated activation functions.
+
++ Linear** activation combination.  
 - Apply **output scaling** or **log transform**.  
 - Replace gradient descent with **Adam optimizer**.  
 - Normalize both inputs and targets.  
