@@ -1,0 +1,960 @@
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [4.969012 7.035326 9.100000 ]
+Error: [0.030796 -0.035504 -0.101111 ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [11.001501 12.954406 14.786928 ]
+Error: [-0.001501 0.045434 0.210045 ]
+Try again
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [17.000432 18.984636 20.900000 ]
+Error: [-0.000432 0.015351 0.099524 ]
+Training successful
+in iteration: 0
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [4.999428 7.059962 9.243957 ]
+Error: [0.000571 -0.060475 -0.250570 ]
+Try again
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [11.000273 13.014790 14.900000 ]
+Error: [-0.000273 -0.014807 0.099333 ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [17.000292 19.013217 20.900000 ]
+Error: [-0.000292 -0.013226 0.099524 ]
+Training successful
+in iteration: 1
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [4.999762 7.006986 9.195436 ]
+Error: [0.000238 -0.006992 -0.199680 ]
+Try again
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [10.999990 12.914732 15.100000 ]
+Error: [0.000010 0.084708 -0.100667 ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [17.000109 19.048536 20.900000 ]
+Error: [-0.000109 -0.048660 0.099524 ]
+Training successful
+in iteration: 2
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [4.999666 6.970896 9.100000 ]
+Error: [0.000334 0.028983 -0.101111 ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [10.999950 12.937973 15.100000 ]
+Error: [0.000050 0.061731 -0.100666 ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [17.000073 19.004333 20.900004 ]
+Error: [-0.000073 -0.004334 0.099520 ]
+Training successful
+in iteration: 3
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [5.000000 -246.730554 333.606417 ]
+Error: [-0.000000 8943.297139 -12032.309336 ]
+Try again
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [193.424332 -184.222357 1.873039 ]
+Error: [-3207.754968 2794.828255 1.639154 ]
+Try again
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 4
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 5
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 6
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 7
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 8
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 9
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 10
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 11
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 12
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 13
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 14
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 15
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 16
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 17
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 18
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 19
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 20
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 21
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 22
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 23
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 24
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 25
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 26
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 27
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 28
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 29
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 30
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 31
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 32
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 33
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 34
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 35
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 36
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 37
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 38
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 39
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 40
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 41
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 42
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 43
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 44
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 45
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 46
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 47
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 48
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 49
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 50
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 51
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 52
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 53
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 54
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 55
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 56
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 57
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 58
+Input: [1.000000 2.000000 3.000000 ]
+label: [5.000000 7.000000 9.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [11.000000 13.000000 15.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+Input: [7.000000 8.000000 9.000000 ]
+label: [17.000000 19.000000 21.000000 ]
+Output: [-nan -nan -nan ]
+Error: [-nan -nan -nan ]
+Training successful
+in iteration: 59

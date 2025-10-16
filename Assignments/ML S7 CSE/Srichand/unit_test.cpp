@@ -18,7 +18,7 @@ int main()
     mdl.set();
 
     training trainer;
-    double delta = 0.01;  // smaller threshold for precise learning
+    double delta = 0.001;  // smaller threshold for precise learning
 
     // Create a simple linear dataset
     std::list<Dataset> datasets;
@@ -29,14 +29,16 @@ int main()
         double x2 = i + 1;
         double x3 = i + 2;
 
-        ds.input = {x1, x2, x3};
-        ds.label = {x1 + x2 + x3, 2*(x1 + x2 + x3), 3*(x1 + x2 + x3)};
+        // normalize the sum
+        double s = (x1 + x2 + x3) / 100.0;
+        ds.input = {x1 / 10.0, x2 / 10.0, x3 / 10.0};
+        ds.label = {s, s * s, s * s * s};
 
         datasets.push_back(ds);
     }
 
     // Train the model for several epochs
-    for(int epoch = 0; epoch < 40; epoch++) { // increase epochs if needed
+    for(int epoch = 0; epoch < 10; epoch++) { // increase epochs if needed
         for(auto &dataset : datasets) {
             bool result = trainer.train(mdl._nn, dataset.input, dataset.label, delta);
 
