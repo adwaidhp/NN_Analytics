@@ -1,0 +1,105 @@
+Training neural network to learn y = 3x + 2
+===========================================
+
+Training with: x = 0, expected y = 2
+Input: [0.000000 ]
+Step 100: Output: [1.260541 ]
+Step 200: Output: [1.729334 ]
+Step 300: Output: [1.900927 ]
+Converged in 300 steps
+Input: [0.000000 ]
+label: [2.000000 ]
+Output: [1.900927 ]
+L-ID: 0	,N-ID:0	 Bias: [ 1.901918 ]	 Delta: [ 0.099073 ]
+In weights: [1.000000 ]
+Out weights: [1.000000 ]
+
+✓ Training successful for this case
+
+Training with: x = 1, expected y = 5
+Input: [1.000000 ]
+Step 100: Output: [4.224277 ]
+Step 200: Output: [4.716060 ]
+Step 300: Output: [4.896069 ]
+Converged in 304 steps
+Input: [1.000000 ]
+label: [5.000000 ]
+Output: [4.900164 ]
+L-ID: 0	,N-ID:0	 Bias: [ 3.901163 ]	 Delta: [ 0.099836 ]
+In weights: [1.000000 ]
+Out weights: [1.000000 ]
+
+✓ Training successful for this case
+
+Training with: x = 2, expected y = 8
+Input: [2.000000 ]
+Step 100: Output: [7.223998 ]
+Step 200: Output: [7.715958 ]
+Step 300: Output: [7.896031 ]
+Converged in 304 steps
+Input: [2.000000 ]
+label: [8.000000 ]
+Output: [7.900128 ]
+L-ID: 0	,N-ID:0	 Bias: [ 5.901127 ]	 Delta: [ 0.099872 ]
+In weights: [1.000000 ]
+Out weights: [1.000000 ]
+
+✓ Training successful for this case
+
+Training with: x = 3, expected y = 11
+Input: [3.000000 ]
+Step 100: Output: [10.223984 ]
+Step 200: Output: [10.715953 ]
+Step 300: Output: [10.896030 ]
+Converged in 304 steps
+Input: [3.000000 ]
+label: [11.000000 ]
+Output: [10.900127 ]
+L-ID: 0	,N-ID:0	 Bias: [ 7.901125 ]	 Delta: [ 0.099873 ]
+In weights: [1.000000 ]
+Out weights: [1.000000 ]
+
+✓ Training successful for this case
+
+Training with: x = -1, expected y = -1
+Input: [-1.000000 ]
+Step 100: Output: [1.921280 ]
+Step 200: Output: [0.069283 ]
+Step 300: Output: [-0.608608 ]
+Step 400: Output: [-0.856738 ]
+Converged in 436 steps
+Input: [-1.000000 ]
+label: [-1.000000 ]
+Output: [-0.900230 ]
+L-ID: 0	,N-ID:0	 Bias: [ 0.098772 ]	 Delta: [ -0.099770 ]
+In weights: [1.000000 ]
+Out weights: [1.000000 ]
+
+✓ Training successful for this case
+
+Training with: x = 10, expected y = 32
+Input: [10.000000 ]
+Step 100: Output: [23.902467 ]
+Step 200: Output: [29.036041 ]
+Step 300: Output: [30.915095 ]
+Step 400: Output: [31.602890 ]
+Step 500: Output: [31.854645 ]
+Converged in 538 steps
+Input: [10.000000 ]
+label: [32.000000 ]
+Output: [31.900787 ]
+L-ID: 0	,N-ID:0	 Bias: [ 21.901779 ]	 Delta: [ 0.099213 ]
+In weights: [1.000000 ]
+Out weights: [1.000000 ]
+
+✓ Training successful for this case
+
+Final Model Test:
+=================
+x = -2 -> predicted: 19.9018, expected: -4, error: 23.9018
+x = -1 -> predicted: 20.9018, expected: -1, error: 21.9018
+x = 0 -> predicted: 21.9018, expected: 2, error: 19.9018
+x = 1 -> predicted: 22.9018, expected: 5, error: 17.9018
+x = 2 -> predicted: 23.9018, expected: 8, error: 15.9018
+x = 3 -> predicted: 24.9018, expected: 11, error: 13.9018
+x = 4 -> predicted: 25.9018, expected: 14, error: 11.9018
