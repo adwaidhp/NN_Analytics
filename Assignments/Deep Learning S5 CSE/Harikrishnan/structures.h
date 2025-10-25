@@ -19,6 +19,8 @@ struct node
 
     double out;
 
+    double pre_activation;
+
     std::list<double *> error;
 
     std::list<double *> label;

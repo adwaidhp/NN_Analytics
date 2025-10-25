@@ -45,7 +45,8 @@ public:
             ++it_w_in;
         }
 
-        n_id->out = function(n_id->f, (result + n_id->b));
+        n_id->pre_activation = result + n_id->b;
+        n_id->out = function(n_id->f, n_id->pre_activation);
     }
 
     void backward(std::list<node>::iterator n_id)
@@ -56,55 +57,32 @@ public:
 
         auto e_id = n_id->error.begin();
 
-        auto l_id = n_id->label.begin();
-
         auto w_id = n_id->w_out.begin();
 
-        while (e_id != n_id->error.end() && l_id != n_id->label.end() && w_id != n_id->w_out.end())
+        while (e_id != n_id->error.end() && w_id != n_id->w_out.end())
         {
-            if (**e_id != 0.0)
-            {
-                if ((**l_id != 0.0) && ((n_id->out * w_id->second) / **l_id) > 0.0)
-                {
-                    **e_id = **e_id * ((n_id->out * w_id->second) / **l_id);
-                }
-                else
-                {
-
-                    **e_id = **e_id * (0.0 - ((n_id->out * w_id->second) / **l_id));
-                }
-
-                if ((w_id->first) && (n_id->out != 0))
-                {
-                    w_id->second += (**e_id * learning_rate / n_id->out);
-
-                    if (w_id->second != 0)
-                    {
-                        acc_err += (**e_id / w_id->second);
-                    }
-                }
-                else
-                {
-
-                    acc_err += **e_id;
-                }
-            }
+            acc_err += (**e_id) * w_id->second;
 
             ++e_id;
-
-            ++l_id;
 
             ++w_id;
         }
 
-        if (n_id->w_out.size() > 0)
+        double activation_grad = gradient(n_id->f, n_id->out);
+        n_id->delta = acc_err * activation_grad;
+
+        auto it_in = n_id->in.begin();
+        auto it_w_in = n_id->w_in.begin();
+
+        while (it_in != n_id->in.end())
         {
-            acc_err = acc_err / n_id->w_out.size();
+            **it_w_in += learning_rate * n_id->delta * (**it_in);
+
+            ++it_in;
+
+            ++it_w_in;
         }
-
-        n_id->b += (learning_rate * acc_err);
-
-        n_id->delta = acc_err;
+        n_id->b += learning_rate * n_id->delta;
     }
 };
 

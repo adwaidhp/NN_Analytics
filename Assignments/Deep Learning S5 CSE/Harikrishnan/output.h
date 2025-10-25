@@ -32,12 +32,10 @@ public:
     void print()
     {
         std::cout << "Output: [";
-
         for (auto field : out)
         {
             printf("%f ", *field);
         }
-
         std::cout << "]" << std::endl;
     }
 };

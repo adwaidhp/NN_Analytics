@@ -2,6 +2,8 @@
 #define __ERROR_H__
 
 #include <list>
+#include <iostream>
+#include <cassert>
 
 class error
 {
@@ -21,15 +23,12 @@ public:
         assert(err.size() == error.size());
 
         auto it_err = err.begin();
-
         auto it_error = error.begin();
 
         while (it_err != err.end())
         {
             *it_err = *it_error;
-
             ++it_err;
-
             ++it_error;
         }
     }
@@ -37,12 +36,10 @@ public:
     void print()
     {
         std::cout << "Error: [";
-
         for (auto field : err)
         {
             printf("%f ", field);
         }
-
         std::cout << "]" << std::endl;
     }
 };

@@ -2,6 +2,7 @@
 #define __DERIVATIVE_H__
 
 #include "global_enum.h"
+#include <cmath>
 
 class derivative
 {
@@ -10,29 +11,21 @@ public:
     {
     }
 
-    double loss(ACT_FUN id, double x)
+    double gradient(ACT_FUN id, double x)
     {
         switch (id)
         {
         case ACT_FUN::sigmoid:
-
             return sigmoid(x);
 
         case ACT_FUN::relu:
-
             return relu(x);
 
-        case ACT_FUN::tanh:
-
-            return tanh(x);
-
         case ACT_FUN::leaky_relu:
-
             return leaky_relu(x);
 
         default:
-
-            return x;
+            return 1.0;
         }
     }
 
@@ -47,8 +40,7 @@ public:
         {
             return 1.0;
         }
-
-        return 0;
+        return 0.0;
     }
 
     double leaky_relu(double x)
@@ -57,14 +49,7 @@ public:
         {
             return 1.0;
         }
-
-        return (0.01);
-    }
-
-    double tanh(double x)
-    {
-        double t = std::tanh(x);
-        return 1 - (t * t);
+        return 0.01;
     }
 };
 

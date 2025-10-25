@@ -16,23 +16,15 @@ public:
         switch (id)
         {
         case ACT_FUN::sigmoid:
-
             return sigmoid(x);
 
         case ACT_FUN::relu:
-
             return relu(x);
 
-        case ACT_FUN::tanh:
-
-            return tanh(x);
-
         case ACT_FUN::leaky_relu:
-
             return leaky_relu(x);
 
         default:
-
             return x;
         }
     }
@@ -48,7 +40,6 @@ public:
         {
             return x;
         }
-
         return 0;
     }
 
@@ -58,13 +49,7 @@ public:
         {
             return x;
         }
-
         return (0.01 * x);
-    }
-
-    double tanh(double x)
-    {
-        return std::tanh(x);
     }
 };
 

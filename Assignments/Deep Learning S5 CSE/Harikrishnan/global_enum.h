@@ -4,7 +4,6 @@
 enum ACT_FUN
 {
     sigmoid,
-    tanh,
     relu,
     leaky_relu
 };
