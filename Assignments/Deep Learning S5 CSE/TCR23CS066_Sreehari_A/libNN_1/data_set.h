@@ -4,6 +4,7 @@
 #include <list> 
 #include <cstdlib> 
 #include <iostream>
+#include <chrono>
 
 class data_set
 {
@@ -18,7 +19,7 @@ class data_set
 		{    	
 		    	std::srand (seed);
 
-		   	return lower_bound + (upper_bound - lower_bound) * (random() % max_rand) / max_rand;
+		   	return lower_bound + (upper_bound - lower_bound) * (std::rand() % max_rand) / max_rand;
 		}
 
 

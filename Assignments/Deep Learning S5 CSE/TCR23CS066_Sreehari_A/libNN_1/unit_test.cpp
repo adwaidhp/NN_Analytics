@@ -7,7 +7,6 @@
 #include "training.h"
 #include "model.h"
 
-// Define a structure to hold input and label lists
 struct Dataset
 {
     std::list<double> input;
@@ -20,34 +19,34 @@ int main()
     model mdl = model();
     mdl.set();
 
-    // Create a list of datasets
-    std::list<Dataset> datasets = {
-        {{4, 10, 16}, {22, 28, 34}},
-        {{1, 2, 3}, {6, 8, 10}},
-        {{5, 7, 9}, {15, 21, 27}}
-        // Add more datasets as needed
+   std::list<Dataset> datasets = {
+        {{1, 2, 3},  {5.5, 9, 13.5}},   //x^2 + x + 1
+        {{2, 3, 4},  {9, 13.5, 19}},
+        {{3, 4, 5},  {13.5, 19, 25.5}},
+        {{4, 5, 6},  {19, 25.5, 33}},  
     };
 
-    double delta = 0.1; // Threshold for the error
+
+    double delta = 0.1;
     training obj = training();
 
-    // Iterate over each dataset and train the model
-    for(int i=0;i<60;i++){    //epochs
-    for (auto &dataset : datasets)
+    for (int epoch = 0; epoch < 50; epoch++)
     {
-        bool result = obj.train(mdl._nn, dataset.input, dataset.label, delta);
+        std::cout << "\n=== Epoch " << epoch << " ===" << std::endl;
+        int success_count = 0;
 
-        if (result)
+        for (auto &dataset : datasets)
         {
-            std::cout << "Training successful" << std::endl;
+            bool result = obj.train(mdl._nn, dataset.input, dataset.label, delta);
+
+            if (result)
+            {
+                success_count++;
+            }
         }
-        else
-        {
-            std::cout << "Try again" << std::endl;
-        }
+
+        std::cout << "Success rate: " << success_count << "/" << datasets.size() << std::endl;
     }
-    std::cout << "in iteration: " << i << std::endl;
-}
 
     return 0;
 }

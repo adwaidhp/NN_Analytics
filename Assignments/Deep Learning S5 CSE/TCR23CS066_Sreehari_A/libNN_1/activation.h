@@ -25,9 +25,9 @@ class activation
 				
 					return  relu (x);
 				
-				case ACT_FUN::tanh:
+				case ACT_FUN::tanh_act:
 				
-					return  tanh_activation (x);
+					return  tanh_act (x);
 				
 				case ACT_FUN::leaky_relu:
 				
@@ -39,9 +39,11 @@ class activation
 			}		
 		}
 	
-		double sigmoid (double x)
+		double sigmoid(double x)
 		{
-			return 1.0 / (1.0 + std::exp(-x));
+    		if (x > 100) x = 100;
+    		if (x < -100) x = -100;
+    		return 1.0 / (1.0 + std::exp(-x));
 		}
 
 		double relu (double x)
@@ -60,10 +62,10 @@ class activation
 			{
 				return x;
 			}
-			return 0.01 * x;  
+			return (0.01 * x);  
 		}
 		
-		double tanh_activation (double x)
+		double tanh_act (double x)
 		{
 			return std::tanh(x);
 		}
