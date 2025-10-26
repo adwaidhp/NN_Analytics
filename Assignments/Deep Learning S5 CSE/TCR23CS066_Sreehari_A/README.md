@@ -23,7 +23,17 @@ double relu (double x)
 		return 0;
 		}
 ```
-	
+Adding Leaky Relu Function
+``` bash
+double leaky_relu (double x)
+		{
+			if (x > 0.0)
+			{
+				return x;
+			}
+			return (0.01 * x);  
+		}
+```
 Example:  
 This project is a deep learning model that predicts house prices based on various features. It is designed to help users make informed real estate decisions.
 
