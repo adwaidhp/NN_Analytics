@@ -8,12 +8,8 @@
 2. **Dataset Update:**
 
    * Updated dataset in `unit_test.cpp` to train on a new function: 2x + 1 instead of previous arithmetic sequences.
-   * std::list<Dataset> datasets = {
-        {{1,2,3}, {3,5,7}},
-        {{10,11,12}, {21,23,25}},
-        {{5,6,7}, {11,13,15}}
-        // Add more datasets as needed
-    };
+  
+ ```cpp std::list<Dataset> datasets = { {{1, 2, 3}, {3, 5, 7}}, {{10, 11, 12}, {21, 23, 25}}, {{5, 6, 7}, {11, 13, 15}} }; ``` 
 
 
 3. **Delta (Error Threshold):**
@@ -39,3 +35,4 @@
 6. **Random Function Update:**
 
    * Replaced `random` with `rand()` in the code for generating random values.
+
