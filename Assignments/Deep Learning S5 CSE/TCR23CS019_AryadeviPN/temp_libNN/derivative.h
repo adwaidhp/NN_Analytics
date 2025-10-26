@@ -24,7 +24,7 @@ class derivative
 				
 					return  relu (x);
 				
-				case ACT_FUN::tanh:
+				case ACT_FUN::tanh_fun:
 				
 					return  tanh (x);
 				

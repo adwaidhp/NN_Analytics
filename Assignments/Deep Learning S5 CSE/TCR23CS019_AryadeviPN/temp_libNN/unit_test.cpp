@@ -22,17 +22,17 @@ int main()
 
     // Create a list of datasets
     std::list<Dataset> datasets = {
-        {{4, 10, 16}, {22, 28, 34}},
-        {{1, 2, 3}, {6, 8, 10}},
-        {{5, 7, 9}, {15, 21, 27}}
+        {{1,2,3}, {3,5,7}},
+        {{10,11,12}, {21,23,25}},
+        {{5,6,7}, {11,13,15}}
         // Add more datasets as needed
     };
 
-    double delta = 0.1; // Threshold for the error
+    double delta = 0.005; // Threshold for the error
     training obj = training();
 
     // Iterate over each dataset and train the model
-    for(int i=0;i<60;i++){    //epochs
+    for(int i=0;i<50;i++){    //epochs
     for (auto &dataset : datasets)
     {
         bool result = obj.train(mdl._nn, dataset.input, dataset.label, delta);

@@ -85,7 +85,7 @@ class network : public neuron, public input, public output, public error, public
 			std::advance (it_to_node, nn.to_node);
 					
 			
-			it_from_node->w_out.push_back (std::pair (nn.trainable, nn.weight));			
+			it_from_node->w_out.push_back (std::make_pair (nn.trainable, nn.weight));			
 
 			nn.from_index = it_from_node->w_out.size () - 1;	
 			
@@ -126,7 +126,7 @@ class network : public neuron, public input, public output, public error, public
 			
 			it_node->in.push_back (&(in.back ()));
 		
-			w_out.push_back (std::pair (ip.trainable, ip.weight));
+			w_out.push_back (std::make_pair (ip.trainable, ip.weight));
 			
 			it_node->w_in.push_back (&(w_out.back ().second));
 			
@@ -153,7 +153,7 @@ class network : public neuron, public input, public output, public error, public
 			
 			out.push_back (&it_node->out);
 			
-			it_node->w_out.push_back (std::pair (op.trainable, op.weight));
+			it_node->w_out.push_back (std::make_pair (op.trainable, op.weight));
 			
 			double val = 1.0;
 			

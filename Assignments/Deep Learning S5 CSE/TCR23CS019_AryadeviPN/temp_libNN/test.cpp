@@ -8,7 +8,7 @@ double get_val (const unsigned int seed, const double lower_bound, const double 
 {    	
     	std::srand (seed);
 
-   	return lower_bound + (upper_bound - lower_bound) * (random() % max_rand) / max_rand;
+   	return lower_bound + (upper_bound - lower_bound) * (rand() % max_rand) / max_rand;
 }
 
 

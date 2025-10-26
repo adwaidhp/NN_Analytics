@@ -2,7 +2,7 @@
 #define __ACTIVATION_H__
 
 #include "global_enum.h"
-
+#include <cmath>
 class activation 
 {
 	public:
@@ -24,7 +24,7 @@ class activation
 				
 					return  relu (x);
 				
-				case ACT_FUN::tanh:
+				case ACT_FUN::tanh_fun:
 				
 					return  tanh (x);
 				
@@ -40,14 +40,14 @@ class activation
 	
 		double sigmoid (double x)
 		{
-			return x;
+			return 1.0/(1.0+ std::exp(-x));
 		}
 
 		double relu (double x)
 		{
 			if (x > 0.0) 
 			{
-				return x;
+				return (x>0.0)? x:0;
 			}
 		
 			return 0;
@@ -55,10 +55,10 @@ class activation
 
 		double leaky_relu (double x)
 		{
-			return x;
+			return (x>0.0)? x:0.1*x;
 		}
 		
-		double tanh (double x)
+		double tanh_fun (double x)
 		{
 			return x;
 		}

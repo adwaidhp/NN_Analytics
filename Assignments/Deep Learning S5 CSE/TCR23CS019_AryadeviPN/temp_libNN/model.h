@@ -30,7 +30,7 @@ public:
         _nn.initialize(node_list);
 
         // A higher learning rate for a linear problem
-        _nn.set_learning_rate(0.000001);
+        _nn.set_learning_rate(0.0001);
 
         // Connects 3 inputs to the 3 neurons of the first layer (Layer 0)
         ip_to_nn i1 = {0, 0, 0, 1.0, false};
