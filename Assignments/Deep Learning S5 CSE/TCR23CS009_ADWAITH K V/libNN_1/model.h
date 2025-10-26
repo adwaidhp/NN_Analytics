@@ -21,16 +21,18 @@ public:
         // Layer 1: 3 neurons (Hidden Layer)
         // Layer 2: 3 neurons (Output Layer)
         node_list = {
-            {{ACT_FUN::leaky_relu, 4.0}, {ACT_FUN::leaky_relu, 4.0}, {ACT_FUN::leaky_relu, 4.0}},
+            {{ACT_FUN::sigmoid, 4.0}, {ACT_FUN::sigmoid, 4.0}, {ACT_FUN::sigmoid, 4.0}},
 
-            {{ACT_FUN::leaky_relu, 5.0}, {ACT_FUN::leaky_relu, 2.0}, {ACT_FUN::leaky_relu, 4.0}},
+            {{ACT_FUN::relu, 3.0}, {ACT_FUN::relu, 5.0}, {ACT_FUN::relu, 6.0}},
 
-            {{ACT_FUN::leaky_relu, 3.0}, {ACT_FUN::leaky_relu, 3.0}, {ACT_FUN::leaky_relu, 3.0}}};
+            {{ACT_FUN::leaky_relu, 3.0}, {ACT_FUN::leaky_relu, 7.0}, {ACT_FUN::leaky_relu, 4.0}}};
+
+            
 
         _nn.initialize(node_list);
 
         // A higher learning rate for a linear problem
-        _nn.set_learning_rate(0.000001);
+        _nn.set_learning_rate(0.000002);
 
         // Connects 3 inputs to the 3 neurons of the first layer (Layer 0)
         ip_to_nn i1 = {0, 0, 0, 1.0, false};

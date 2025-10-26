@@ -25,7 +25,7 @@ class activation
 				
 					return  relu (x);
 				
-				case ACT_FUN::tanh:
+				case ACT_FUN::tanh_fun:
 				
 					return  tanh (x);
 				
@@ -59,7 +59,7 @@ class activation
 			return (x > 0.0) ? x : 0.02 * x;
 		}
 		
-		double tanh (double x)
+		double tanh_fun (double x)
 		{
 			return tanh(x);
 		}

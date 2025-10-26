@@ -24,7 +24,7 @@ class derivative
 				
 					return  relu (x);
 				
-				case ACT_FUN::tanh:
+				case ACT_FUN::tanh_fun:
 				
 					return  tanh (x);
 				
@@ -60,12 +60,12 @@ class derivative
 				return 1.0;
 			}
 		
-			return (0.01 * x);
+			return (0.02 * x);
 		}
 		
 		double tanh (double x)
 		{
-			return x;
+			return 1.0 - x * x;
 		}
 };
 
