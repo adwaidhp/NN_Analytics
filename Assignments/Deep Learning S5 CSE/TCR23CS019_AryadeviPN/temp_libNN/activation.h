@@ -60,7 +60,7 @@ class activation
 		
 		double tanh_fun (double x)
 		{
-			return x;
+			return tanh(x);
 		}
 };
 
