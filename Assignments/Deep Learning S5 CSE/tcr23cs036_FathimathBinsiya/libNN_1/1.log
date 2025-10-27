@@ -886,3 +886,30 @@ label: [2.000000 4.000000 6.000000 ]
 Output: [1.964476 4.070798 6.100000 ]
 Error: [0.034893 -0.072051 -0.101666 ]
 Training successful
+Modified training model
+Input: [0.000000 1.000000 2.000000 ]
+label: [1.000000 2.000000 4.000000 ]
+Output: [0.999409 1.995119 4.099999 ]
+Error: [0.000590 0.004869 -0.102498 ]
+Training successful
+Input: [4.000000 5.000000 6.000000 ]
+label: [16.000000 32.000000 64.000000 ]
+Output: [16.008009 32.003921 63.900001 ]
+Error: [-0.008013 -0.003921 0.099843 ]
+Training successful
+Input: [1.000000 2.000000 3.000000 ]
+label: [0.000000 0.693000 1.098000 ]
+Output: [-nan 0.737376 1.197999 ]
+Error: [-nan -0.047218 -0.109106 ]
+Training successful
+Input: [5.000000 6.000000 7.000000 ]
+label: [1.609000 1.792000 1.946000 ]
+Output: [-nan 1.692001 1.897055 ]
+Error: [-nan 0.094419 0.047714 ]
+Training successful
+in iteration: 0
+Input: [0.000000 1.000000 2.000000 ]
+label: [1.000000 2.000000 4.000000 ]
+Output: [-nan 1.991614 3.900000 ]
+Error: [-nan 0.008350 0.097500 ]
+Training successful

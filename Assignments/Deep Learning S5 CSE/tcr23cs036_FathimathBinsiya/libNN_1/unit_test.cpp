@@ -23,10 +23,10 @@ int main()
     // Create a list of datasets
     std::list<Dataset> datasets = {
          // Exponential: y = 2^x
-        {{0, 1, 2, 3}, {1, 2, 4, 8}},
+        {{0, 1, 2}, {1, 2, 4}},
         {{4, 5, 6}, {16, 32, 64}},
        // Logarithmic: y = log(x)
-        {{1, 2, 3, 4}, {0, 0.693, 1.098, 1.386}},
+        {{1, 2, 3}, {0, 0.693, 1.098}},
         {{5, 6, 7}, {1.609, 1.792, 1.946}},
 
         // Add more datasets as needed
