@@ -1,4 +1,5 @@
 **Submitted By:** Adwaidh Payattuparambil
+
 **Roll No:** TCR23CS007
 
 ## Work Done
@@ -8,7 +9,7 @@
 - Changed dataset to test linear and quadratic equations.
 - Increased total number of layers to 4, (2 hidden).
 
-## ⚙️ Configuration / Updates
+## Configuration / Updates
 
 The following changes have been made to the network configuration:
 
