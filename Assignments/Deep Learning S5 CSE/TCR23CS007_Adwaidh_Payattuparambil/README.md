@@ -1,3 +1,6 @@
+**Submitted By:** Adwaidh Payattuparambil
+**Roll No:** TCR23CS007
+
 ## Work Done
 
 - Fixed tanh, Sigmoid, reLu and leaky relu implementation in derivative.h and activation.h (Replaced placeholder functions)
