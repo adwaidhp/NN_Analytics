@@ -192,7 +192,7 @@ enum ACT_FUN {sigmoid, tanh_act, relu, leaky_relu};
 
 - In `model.h`
 
-```
+``` cpp []
 
 #ifndef _MODEL_H_
 #define _MODEL_H_
