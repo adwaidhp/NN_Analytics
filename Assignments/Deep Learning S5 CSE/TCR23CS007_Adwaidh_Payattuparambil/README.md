@@ -20,4 +20,36 @@ The following changes have been made to the network configuration:
 
 - **Initial weights**: Custom initialization for all layers.
 - **Learning rate**: 0.00001
+- **Epochs**: 60
 - **Error threshold**: 0.1
+
+## Code Changes
+
+- In `activation.h`
+
+`   double sigmoid (double x)
+		{
+			return 1.0 / (1.0 + std::exp(-x));
+		}
+
+		double relu (double x)
+		{
+			if (x > 0.0) 
+			{
+				return x;
+			}
+		
+			return 0;
+		}
+
+		double leaky_relu (double x)
+		{
+			return (x > 0.0) ? x : 0.01 * x; //allowing a small, non-zero gradient for negative inputs
+		}
+		
+		double tanh_activation(double x)
+		{
+			return std::tanh(x);
+		}
+
+    `
